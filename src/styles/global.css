@@ -1,0 +1,5 @@
+@import "./title.css";
+body {
+  background: orange;
+  background-image: url("../img/ico_expand_button.png");
+}
