@@ -16,7 +16,7 @@ module.exports = {
     shared: ['lodash-es']
   },
   output: {
-    filename: 'js/[name].bundle.js',
+    filename: 'js/[name].js',
     path: OUTPUT_PATH
   },
   resolve: {

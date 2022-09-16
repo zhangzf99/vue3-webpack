@@ -45,7 +45,7 @@ module.exports = merge(baseConfig, {
     new FriendlyErrorsWebpackPlugin({
       compilationSuccessInfo: {
         // 修改启动后终端显示localhost和network访问地址
-        messages: [`Your application is running here: http://localhost:8080`]
+        messages: [`Your application is running here: http://localhost:${port}`]
       }
     }),
     new ESLintPlugin({
